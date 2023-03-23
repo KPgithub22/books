@@ -33,7 +33,6 @@ class UI{
     getInputData(selector){
         return document.querySelector(selector).value
     }
-
     clearInputData(selector){
         document.querySelector(selector).value = ''
     }
